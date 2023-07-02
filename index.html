@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>74 &lt; 99</h1>
+    <form action="" method="get">
+        <h4 style="height:5px;">User Details:</h4>
+        <div class="name-group">
+            <label for="first_name">First Name:</label>
+            <input type="text" name="q" value="moshe" id="first_name">
+        
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" placeholder="Last name" id="last_name">
+        </div>
+        <div class="contact-group">
+            <label for="email">Email:</label>
+            <!-- pattern=".+@globex\.com" -->
+            <input type="email" name="email" placeholder="email" id="email"  size="30" required>
+    
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" name="phone_number" placeholder="phone number" id="phone_number" required>
+        </div>
+      
+        <h4 style="height:5px;">Additional Details:</h4>
+        <h4 style="height:5px;font-weight:normal;">Profession:</h4>
+        <div class="button-group">
+            <button type="button">Reset Form</button>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</body>
+</html>

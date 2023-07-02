@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="POST">
+      
+        <h4 style="height:5px;">User Details:</h4>
+         <div class="a">
+                <div class="b">
+                <label for="first_name">First Name:</label>
+                <input type="text" name="q" value="moshe" id="first_name">
+                </div>
+                <div class="b">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" placeholder="Last name" id="last_name">
+                </div>
+         </div>
+        <div class="a">
+            <div class="b">
+            <label for="email">Email:</label>
+            <!-- pattern=".+@globex\.com" -->
+            <input type="email" name="email" placeholder="email" id="email"  size="30" required>
+              </div>
+              <div class="b">
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" name="phone_number" placeholder="phone number" id="phone_number" required>
+               </div>
+        </div>
+        <br>
+        <h4 style="height:5px;">Additional Details:</h4>
+        <br>
+
+        <label for="pet-select">Choose a pet:</label>
+
+            <select id="pet-select" name="pet-select">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+        <br>
+        <label for="comments">Comments:</label>
+        <input type="text" id="comments" name="comments" style="display: block; height: 50px;">
+        <br>
+        <h4 style="height:5px;font-weight:normal;">Profession:</h4>
+        <div class="c">
+        
+            <button type="button" style="width: 30%;">Reset Form</button>
+            <button type="submit" style="width: 30%;">Send</button>
+            
+        </div>
+    </form>
+</body>
+      
+    
+</body>
+</html>

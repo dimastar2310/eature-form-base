@@ -1,0 +1,42 @@
+* {
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid grey;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    box-sizing: border-box; /* Add this line */
+    position: relative;
+}
+
+.name-group,
+.contact-group,
+.button-group {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+    flex-basis: 30%; /* Add this line */
+}
+
+input {
+    flex-basis: 60%; /* Add this line */
+    box-sizing: border-box; /* Add this line */
+    margin-top: 5px; /* Add this line */
+}
